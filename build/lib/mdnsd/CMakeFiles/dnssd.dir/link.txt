@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdnssd.a CMakeFiles/dnssd.dir/dnssd_mdnsd.c.o CMakeFiles/dnssd.dir/mdnsd.c.o
+/usr/bin/ranlib libdnssd.a

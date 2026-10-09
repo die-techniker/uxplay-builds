@@ -1,0 +1,13 @@
+/usr/local/bin/uxplay
+/usr/local/share/man/man1/uxplay.1
+/usr/local/share/doc/uxplay/README.md
+/usr/local/share/doc/uxplay/README.txt
+/usr/local/share/doc/uxplay/README.html
+/usr/local/share/doc/uxplay/LICENSE
+/usr/local/share/doc/uxplay/llhttp/LICENSE-MIT
+/usr/local/share/doc/uxplay/systemd/uxplay.service
+/usr/local/share/man/man1/uxplay-beacon.1
+/usr/local/bin/uxplay-beacon.py
+/usr/local/bin/uxplay_beacon_module_BleuIO.py
+/usr/local/bin/uxplay_beacon_module_BlueZ.py
+/usr/local/bin/uxplay_beacon_module_HCI.py

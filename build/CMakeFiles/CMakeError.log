@@ -1,0 +1,23 @@
+Determining if files sys/endian.h exist failed with the following output:
+Change Dir: /home/viktor-chiarcos/GitHub/uxplay/build/CMakeFiles/CMakeScratch/TryCompile-vIo4yG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_07fbd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07fbd.dir/build.make CMakeFiles/cmTC_07fbd.dir/build
+gmake[1]: Verzeichnis „/home/viktor-chiarcos/GitHub/uxplay/build/CMakeFiles/CMakeScratch/TryCompile-vIo4yG“ wird betreten
+Building C object CMakeFiles/cmTC_07fbd.dir/BSD.c.o
+/usr/bin/cc   -DSTANDALONE -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS -DTARGET_POSIX -D_LINUX -fPIC -DPIC -D_REENTRANT -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Wall -O2   -o CMakeFiles/cmTC_07fbd.dir/BSD.c.o -c /home/viktor-chiarcos/GitHub/uxplay/build/CMakeFiles/CMakeScratch/TryCompile-vIo4yG/BSD.c
+/home/viktor-chiarcos/GitHub/uxplay/build/CMakeFiles/CMakeScratch/TryCompile-vIo4yG/BSD.c:2:10: fatal error: sys/endian.h: Datei oder Verzeichnis nicht gefunden
+    2 | #include <sys/endian.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_07fbd.dir/build.make:78: CMakeFiles/cmTC_07fbd.dir/BSD.c.o] Fehler 1
+gmake[1]: Verzeichnis „/home/viktor-chiarcos/GitHub/uxplay/build/CMakeFiles/CMakeScratch/TryCompile-vIo4yG“ wird verlassen
+gmake: *** [Makefile:127: cmTC_07fbd/fast] Fehler 2
+
+
+Source:
+/* */
+#include <sys/endian.h>
+
+
+int main(void){return 0;}
+

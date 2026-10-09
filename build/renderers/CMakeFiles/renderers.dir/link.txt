@@ -1,0 +1,2 @@
+/usr/bin/ar qc librenderers.a CMakeFiles/renderers.dir/audio_renderer.c.o CMakeFiles/renderers.dir/video_renderer.c.o CMakeFiles/renderers.dir/mux_renderer.c.o
+/usr/bin/ranlib librenderers.a

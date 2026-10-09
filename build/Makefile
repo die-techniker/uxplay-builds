@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viktor-chiarcos/GitHub/uxplay
+CMAKE_SOURCE_DIR = ~/uxplay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viktor-chiarcos/GitHub/uxplay/build
+CMAKE_BINARY_DIR = ~/uxplay/build
 
 #=============================================================================
 # Targets provided globally by CMake.
